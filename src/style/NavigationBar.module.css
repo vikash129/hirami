@@ -1,0 +1,108 @@
+.navigationBar {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font: 18px Satoshi, sans-serif;
+  }
+  
+  .logo {
+    aspect-ratio: 2.22;
+    object-fit: contain;
+    object-position: center;
+    width: 162px;
+    max-width: 100%;
+  }
+  
+  .navItems {
+    border-radius: 16px;
+    align-self: start;
+    display: flex;
+    margin-top: 9px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 991px) {
+    .navItems {
+      max-width: 100%;
+    }
+  }
+  
+  .linkContainer {
+    align-self: start;
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 991px) {
+    .linkContainer {
+      max-width: 100%;
+    }
+  }
+  
+  .servicesLink {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    aspect-ratio: 3.583;
+    width: 86px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .servicesLink {
+      white-space: initial;
+    }
+  }
+  
+  .servicesIcon {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .servicesText {
+    position: relative;
+  }
+  
+  .appButton {
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    padding: 5px 37px;
+    background-color: #bd2930;
+    font-size: 18px ;
+
+  }
+  
+  @media (max-width: 991px) {
+    .appButton {
+      padding: 0 20px;
+
+    }
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }

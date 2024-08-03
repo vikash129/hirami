@@ -1,0 +1,262 @@
+.footer {
+    border-radius: 0;
+    display: flex;
+    padding-right: 15px;
+    flex-direction: column;
+  margin-top: 100px;
+
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
+  .content {
+    gap: 20px;
+    display: flex;
+  }
+  
+  @media (max-width: 991px) {
+    .content {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  
+  .logoColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 27%;
+    margin-left: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .logoColumn {
+      width: 100%;
+    }
+  }
+  
+  .logoWrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 991px) {
+    .logoWrapper {
+      margin-top: 40px;
+    }
+  }
+  
+  .logo {
+    aspect-ratio: 2.22;
+    object-fit: contain;
+    object-position: center;
+    width: 220px;
+    max-width: 100%;
+  }
+  
+  .tagline {
+    color: #000;
+    margin-top: 15px;
+    font: 500 14px Satoshi, sans-serif;
+  }
+  
+  .appDownload {
+    /* align-self: flex-end;
+    display: flex;
+    margin-top: 23px;
+    width: 244px;
+    max-width: 100%;
+    gap: 20px 62px; */
+    margin-top: 23px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  @media (max-width: 991px) {
+    .appDownload {
+      margin-right: 10px;
+    }
+  }
+  
+  .getTheApp {
+    color: #000;
+    margin: auto 0;
+    font: 700 16px Satoshi, sans-serif;
+    padding: 5px 20px;
+    border: 1px solid black ;
+    border-radius: 10px;
+    width: 26%;
+  }
+  
+  .appStores {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: space-between; */
+    flex: 1;
+  }
+  
+  .divider {
+    align-self: stretch;
+    width: 1px;
+    height: 40px;
+    background-color: black;
+    margin: auto;
+  }
+  
+  .appStore {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .playStore {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 25px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .linksColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 73%;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .linksColumn {
+      width: 100%;
+    }
+  }
+  
+  .linksWrapper {
+    display: flex;
+    margin-top: 20px;
+    flex-grow: 1;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 991px) {
+    .linksWrapper {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
+  .linkGroup {
+    display: flex;
+    flex-direction: column;
+    font-family: Satoshi, sans-serif;
+  }
+  
+  .linkGroupTitle {
+    color: #bd2930;
+    font-size: 18px;
+    font-weight: 700;
+    align-self: flex-start;
+  }
+  
+  .link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 13px;
+  }
+  
+  .contactInfo {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .contactTitle {
+    color: #bd2930;
+    font: 700 18px Satoshi, sans-serif;
+  }
+  
+  .contactItem {
+    display: flex;
+    margin-top: 14px;
+    gap: 14px;
+    color: #000;
+    white-space: nowrap;
+    font: 500 14px Satoshi, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .contactItem {
+      white-space: initial;
+    }
+  }
+  
+  .contactIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+  }
+  
+  .contactText {
+    margin: auto 0;
+  }
+  
+  @media (max-width: 991px) {
+    .contactText {
+      white-space: initial;
+    }
+  }
+  
+  .socialMedia {
+    display: flex;
+    margin-top: 14px;
+    align-items: center;
+    gap: 12px;
+    justify-content: flex-start;
+  }
+  
+  .socialIcons {
+    aspect-ratio: 4.9;
+    object-fit: contain;
+    object-position: center;
+    width: 113px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .copyright {
+    color: #000;
+    align-self: flex-start;
+    margin: 41px 0 0 13px;
+    font: 300 12px Roboto, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .copyright {
+      margin: 40px 0 0 10px;
+    }
+  }

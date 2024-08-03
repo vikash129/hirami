@@ -1,0 +1,122 @@
+.hero {
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 900;
+  margin: 2px -3rem;
+  width: 105%;
+  overflow-x: hidden;
+  margin-top: 70px;
+
+
+}
+
+.heroContent {
+  background-color: #161616;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 63px 80px; */
+}
+
+@media (max-width: 991px) {
+  .heroContent {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.heroInner {
+  display: flex;
+  width: 100%;
+  max-width: 1177px;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .heroInner {
+    max-width: 100%;
+  }
+}
+
+.heroTitle {
+  color: #fff;
+  font: 48px Satoshi, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .heroTitle {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.highlightRed {
+  color: #bd2930;
+}
+
+.highlightWhite {
+  color: #fff;
+}
+
+.statsCard {
+  border-radius: 26px;
+  background-color: #fff;
+  display: flex;
+  margin-top: 39px;
+  flex-direction: column;
+  padding: 26px 78px;
+}
+
+@media (max-width: 991px) {
+  .statsCard {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.statsNumber {
+  color: #bd2930;
+  font-size: 63px;
+  letter-spacing: 1.25px;
+  align-self: center;
+  margin-left: 11px;
+}
+
+@media (max-width: 991px) {
+  .statsNumber {
+    font-size: 40px;
+  }
+}
+
+.statsLabel {
+  color: #000;
+  font-size: 47px;
+  letter-spacing: 0.93px;
+  margin-top: 26px;
+}
+
+@media (max-width: 991px) {
+  .statsLabel {
+    font-size: 40px;
+  }
+}
+
+.heroDescription {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  align-self: stretch;
+  margin-top: 32px;
+}
+
+@media (max-width: 991px) {
+  .heroDescription {
+    max-width: 100%;
+  }
+}

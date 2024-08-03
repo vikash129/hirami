@@ -1,0 +1,438 @@
+.div {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: fit-content;
+  }
+  @media (max-width: 991px) {
+    .div2 {
+      max-width: 100%;
+    }
+  }
+  .div3 {
+    width: 100%;
+    max-width: 1185px;
+  }
+  @media (max-width: 991px) {
+    .div3 {
+      max-width: 100%;
+    }
+  }
+  .div4 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div4 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 17%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .img {
+    aspect-ratio: 0.7;
+    object-fit: contain;
+    object-position: center;
+    width: 187px;
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+  }
+  @media (max-width: 991px) {
+    .img {
+      margin-top: 40px;
+    }
+  }
+  .column2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 140%;
+    /* margin-left: 20px; */
+  }
+  @media (max-width: 991px) {
+    .column2 {
+      width: 100%;
+    }
+  }
+  .div5 {
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    margin-top: 148px;
+    width: 100%;
+    padding-top: 43px;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div5 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div6 {
+    border-radius: 22px;
+    background-color: rgba(247, 247, 247, 1);
+    padding-right: 80px;
+  }
+  @media (max-width: 991px) {
+    .div6 {
+      max-width: 100%;
+      padding-right: 20px;
+    }
+  }
+  .div7 {
+    gap: 110px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div7 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column3 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column3 {
+      width: 100%;
+    }
+  }
+  .div8 {
+    border-radius: 22px;
+    background-color: rgba(219, 219, 219, 1);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    /* padding: 0 69px; */
+    overflow-y: hidden;
+  }
+  @media (max-width: 991px) {
+    .div8 {
+      margin-top: 26px;
+      padding: 0 20px;
+    }
+  }
+  .img2 {
+    aspect-ratio: 0.66;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    z-index: 10;
+    margin-top: -43px;
+  }
+  .column4 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 80%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column4 {
+      width: 100%;
+    }
+  }
+  .div9 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-self: stretch;
+    color: rgba(60, 60, 60, 1);
+    letter-spacing: 0.48Px;
+    margin: auto 0;
+    font: 700 16px Satoshi, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div9 {
+      margin-top: 40px;
+    }
+  }
+  .forCollegeStudents {
+    align-self: start;
+  }
+  .assistingIndividuals {
+    color: rgba(189, 41, 48, 1);
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 1.14Px;
+    margin-top: 16px;
+  }
+  @media (max-width: 991px) {
+    .assistingIndividuals {
+      margin-right: 8px;
+    }
+  }
+  .discoverOpportunitiesForJobsInternshipsAndMentorshipUnderOneRoofConnectWithSkilledProfessionalsToFosterMutualSuccessInYourCareerJourney {
+    font-weight: 500;
+    margin-top: 13px;
+  }
+  .div10 {
+    align-self: start;
+    display: flex;
+    margin-top: 16px;
+    gap: 14px;
+    color: rgba(189, 41, 48, 1);
+  }
+  .img3 {
+    aspect-ratio: 0.94;
+    object-fit: contain;
+    object-position: center;
+    width: 17px;
+    border-radius: 0px 0px 0px 0px;
+  }
+  .div11 {
+    /* display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px 0 0 17px; */
+    align-items: center;
+    /* gap: 15px; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin: 26px 0 0 164px;
+    display: flex;
+    /* flex-direction: column; */
+    /* line-height: normal; */
+    width: 73%;
+  }
+  @media (max-width: 991px) {
+    .div11 {
+      max-width: 100%;
+    }
+  }
+  .div12 {
+    align-self: end;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div12 {
+      margin-top: 40px;
+    }
+  }
+  .designElementAboutus {
+    background-color: rgba(119, 22, 22, 0.11);
+    border-radius: 50%;
+    display: flex;
+    width: 18px;
+    height: 18px;
+  }
+  .div13 {
+    display: flex;
+    margin-top: 16px;
+    padding-left: 21px;
+    flex-direction: column;
+
+   
+
+  }
+  @media (max-width: 991px) {
+    .div13 {
+      padding-left: 20px;
+    }
+  }
+  .designElementAboutus2 {
+    background-color: rgba(119, 22, 22, 0.11);
+    border-radius: 50%;
+    display: flex;
+    width: 37px;
+    height: 37px;
+  }
+  .designElementAboutus3 {
+    background-color: rgba(119, 22, 22, 0.11);
+    border-radius: 50%;
+    align-self: end;
+    display: flex;
+    margin-top: 7px;
+    width: 84px;
+    height: 84px;
+  }
+  .b2B {
+    /* border-radius: 0px 0px 0px 0px;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 0 2px; */
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 140%;
+  }
+  @media (max-width: 991px) {
+    .b2B {
+      max-width: 100%;
+    }
+  }
+  .div14 {
+    border-radius: 22px;
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: 38px;
+  }
+  @media (max-width: 991px) {
+    .div14 {
+      max-width: 100%;
+      padding-left: 20px;
+    }
+  }
+  .div15 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div15 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column5 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 46%;
+    margin-left: 0px;
+    padding: 30px 0;
+  }
+  @media (max-width: 991px) {
+    .column5 {
+      width: 100%;
+    }
+  }
+  .div16 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-self: stretch;
+    color: rgba(60, 60, 60, 1);
+    letter-spacing: 0.48Px;
+    margin: auto -65px auto 0;
+    font: 700 16px Satoshi, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div16 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .forB2B {
+    align-self: start;
+  }
+  .empoweringBusinesses {
+    color: rgba(189, 41, 48, 1);
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 1.14Px;
+    margin-top: 17px;
+  }
+  @media (max-width: 991px) {
+    .empoweringBusinesses {
+      max-width: 100%;
+    }
+  }
+  .description {
+    font-weight: 500;
+    margin: 13px 38px 0 0;
+  }
+  @media (max-width: 991px) {
+    .description {
+      margin-right: 10px;
+    }
+  }
+  .div17 {
+    align-self: start;
+    display: flex;
+    margin-top: 14px;
+    gap: 15px;
+    color: rgba(189, 41, 48, 1);
+  }
+  .img4 {
+    aspect-ratio: 0.94;
+    object-fit: contain;
+    object-position: center;
+    width: 17px;
+    border-radius: 0px 0px 0px 0px;
+  }
+  .column6 {
+    /* display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 54%;
+    margin-left: 20px; */
+
+    background-color: rgba(219, 219, 219, 1);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: start;
+    width: 40%;
+    border-radius: 20px;
+    /* padding: 0 69px; */
+    overflow-y: hidden;
+  }
+  @media (max-width: 991px) {
+    .column6 {
+      width: 100%;
+    }
+  }
+  .img5 {
+    aspect-ratio: 1.5;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    z-index: 10;
+    flex-grow: 1;
+    /* margin: 0px 0px -50px 0; */
+  }
+  @media (max-width: 991px) {
+    .img5 {
+      max-width: 100%;
+    }
+  }
+  .designElementAboutus4 {
+    background-color: rgba(119, 22, 22, 0.11);
+    border-radius: 50%;
+    align-self: end;
+    display: flex;
+    margin-top: 254px;
+    width: 200px;
+    height: 664px;
+    /* float: right; */
+
+    position: absolute;
+    right: -8rem;
+  }
+  @media (max-width: 991px) {
+    .designElementAboutus4 {
+      margin-top: 40px;
+    }
+  }
